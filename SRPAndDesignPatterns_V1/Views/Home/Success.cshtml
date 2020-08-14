@@ -1,0 +1,10 @@
+﻿@model SRPAndDesignPatterns_V1.Models.Order
+@{
+    ViewData["Title"] = "Success";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Success!</h1>
+<h2>Your order (# @Model.Id) has been placed successfully!</h2>
+<a asp-controller="Home" asp-action="Index">Go Back</a>
+
